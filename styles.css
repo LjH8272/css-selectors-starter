@@ -174,7 +174,7 @@ h3{
     select all of the unordered lists on the page using the tag name selector
 */
 /* ----- */
-u1{
+ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 12px;
@@ -466,7 +466,7 @@ label{
     select the spans in the form using the class name selector
 */
 /* ----- */
-.form-span{
+.required{
     font-size: 1.5rem;
     font-weight: bold;
     display: inline;
@@ -890,7 +890,7 @@ tfoot{
     select the pseudo-elements section using the ID selector
 */
 /* ----- */
-#pseudo-elements{
+#pseudo-els{
     position: relative;
 }
 
@@ -900,7 +900,7 @@ tfoot{
     select the div in the pseudo-elements section using the ID, child/descendant, and tag name selectors
 */
 /* ----- */
-#pseudo-elements >div{
+#pseudo-els >div{
     width: 275px;
     height: 275px;
     margin: 56px auto 32px;
@@ -915,7 +915,7 @@ tfoot{
     select the div's before element in the pseudo-elements section using the ID, child/descendant, pseudo-element, and tag name selectors
 */
 /* ----- */
-#pseudo-elements >div::before{
+#pseudo-els >div::before{
     content: "\2730";
     padding: 12px 24px;
     border-radius: 50%;
@@ -935,7 +935,7 @@ tfoot{
     select the image in the pseudo-elements section using the ID, child/descendant, and tag name selectors
 */
 /* ----- */
-#pseudo-elements img{
+#pseudo-els img{
     width: 200px;
     height: 200px;
     margin: 0 auto;
